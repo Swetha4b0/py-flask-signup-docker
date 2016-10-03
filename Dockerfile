@@ -1,4 +1,3 @@
-FROM python:2-onbuild
+FROM mswetha2/dess-web
 MAINTAINER mswetha2
-EXPOSE 5000
-CMD [ "python", "./application.py" ]
+EXPOSE 8080
